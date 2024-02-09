@@ -1,9 +1,14 @@
-body, h1, h2, p, ol, ul, li, form, input, textarea, table, th, td {
+body, h1, h2, p, ol, ul, li, form, input, textarea, th, td {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
+table {
+    width: auto;
+    max-width: fit-content;
+    margin-bottom: 20px;
+    border-collapse: collapse;
+}
 
 body {
     font-family: 'Arial', sans-serif;
